@@ -20,10 +20,8 @@ class Triangle
         :isosceles
       elsif (@side_1 != @side_2) && (@side_2 != @side_3) && (@side_1 != @side_3)
         :scalene
-      end
     end
-  end
+end
 
 class TriangleError < StandardError
-  puts "Each side must be larger than 0"
 end
