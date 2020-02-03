@@ -25,6 +25,5 @@ class Triangle
   end
 
 class TriangleError < StandardError
-  def message
-   puts "knows that triangles with negative sides are illegal"
+  puts "Each side must be larger than 0"
 end
